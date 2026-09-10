@@ -1,0 +1,6 @@
+{
+  "name": "Kvashchev-VCI Fusion: Creative Problem-Solving & Verbal Precision Trainer",
+  "description": "A specialized cognitive exercise merging Kvashchev's divergent problem-solving method with high-level Verbal Comprehension Index (VCI) semantic constraints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    background-color: #050505;
+    color: #e5e7eb;
+    min-height: 100vh;
+  }
+}
+
+/* Custom glow animations and aesthetic accents */
+.glow-emerald {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.3), 0 0 6px -2px rgba(16, 185, 129, 0.2);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 15px -3px rgba(6, 182, 212, 0.3), 0 0 6px -2px rgba(6, 182, 212, 0.2);
+}
+
+.border-glow-emerald {
+  box-shadow: inset 0 0 12px -2px rgba(16, 185, 129, 0.15), 0 0 10px rgba(16, 185, 129, 0.2);
+}
+
+.border-glow-cyan {
+  box-shadow: inset 0 0 12px -2px rgba(6, 182, 212, 0.15), 0 0 10px rgba(6, 182, 212, 0.2);
+}
+
+/* Custom scrollbar for deep dark terminal style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
