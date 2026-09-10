@@ -153,7 +153,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="hidden md:flex items-center gap-2.5">
             {/* Join Discord Link */}
             <a
-              href="https://discord.gg/cognition"
+              href="https://discord.gg/brain"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-1.5 rounded-md bg-indigo-950/40 border border-indigo-500/40 text-indigo-300 hover:text-white hover:border-indigo-400 transition-all text-xs font-mono flex items-center gap-1.5 group"
