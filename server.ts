@@ -90,7 +90,7 @@ Provide a strict, highly analytical evaluation. Return ONLY valid JSON in this e
 Ensure solutionEvals has exactly 5 elements matching the 5 solutions.`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3.6-flash',
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
